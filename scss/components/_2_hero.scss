@@ -1,5 +1,6 @@
 .hero {
-    // min-height: 80vh;
+    max-width: var(--max-width);
+    margin: 0 auto;
     max-height: 600px;
     display: grid;    
     grid-template-columns: 1fr 1fr;
