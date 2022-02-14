@@ -1,0 +1,41 @@
+header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: var(--blue);
+    }
+
+    img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) translateY(calc((60px - 45px)/2));
+    }
+
+    .search {
+        color: var(--blue);
+        padding: 0.8rem;
+        background: hsl(200, 6%, 90%);
+        border-radius: 5px;
+        border: none;
+        background-image: url('./magnifying-glass.svg');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 1.2rem;
+        
+    }
+    
+}

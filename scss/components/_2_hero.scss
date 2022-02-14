@@ -1,0 +1,56 @@
+.hero {
+    // min-height: 80vh;
+    max-height: 600px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        margin: auto 0;
+        max-width: 100%;
+    }
+
+    div {
+        margin: auto 0;
+        padding: 2rem;
+        
+h1 {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+span {
+    display: inline-block;
+    padding-bottom: 1rem;
+    background-image: url('./green-lines.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0.5rem 0.8rem;
+        color: white;
+        font-weight: 800;
+        background-color: var(--blue);
+        border-radius: 3px;
+        margin: 0.2rem;
+
+        &:hover {
+            box-shadow: 0 0 0 2px white,
+            0 0 0 4px var(--blue);
+        }
+    }
+
+    li:first-of-type {
+        margin-left: 0;
+    }
+}
